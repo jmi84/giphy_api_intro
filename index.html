@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Giphy App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<header>
+
+  <h1>GETTIN GIPHY WITH IT</h1>
+
+  <form action="" method="post">
+    <label for="" style="display: none;">Search</label>
+    <input class="search" type="text" name"search" placeholder="Enter keyword(s)" required>
+    <input class="btn" type="submit" value="Search">
+    <input class="btn clear" value="Clear" readonly>
+    <br>
+    <br>
+    <input class="btn random" value="Random">
+    <input class="btn trending" value="Trending">
+  </form>
+
+  <br>
+
+</header>
+
+<body>
+
+  <!-- div element to display trending gifs upon user request -->
+  <div id="threeGifs"></div>
+
+  <!-- giphy logo links to giphy website, also the target to display results of goTranslate and goRandom functions -->
+  <div class="giphy">
+    <a href="https://giphy.com/" target="_blank">
+      <img src="https://res.cloudinary.com/beumsk/image/upload/v1520544016/giphy-logo-6611-s-_vme7aa.png" alt="giphy">
+    </a>
+      <br>
+      <br>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <script src="main.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>
